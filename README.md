@@ -3,7 +3,7 @@ Recieve jpg image from ip-cam, if numberplate detected, draw rectangle and store
 
 Write DATE,CAM_NUMBER,DETECTED_LP,PATH_TO_IMAGE in CSV file in same folder.
 
-# Rus python script as service
+# Run python script as service
 To run python script as service on Ubuntu 18
 
 Create .service file in folder /lib/systemd/system/
@@ -55,7 +55,7 @@ install python module:
 <pre>
 sudo pip3 browsepy
 </pre>
-Create service file:
+Create service config:
 <pre>
 sudo nano /lib/systemd/system/webfolder.service
 </pre>
