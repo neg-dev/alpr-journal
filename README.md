@@ -1,5 +1,5 @@
-# ALPR journal
-Store detected Licence plates as JPG images in folder with DATE,CAM_NUMBER,DETECTED_LP in filename.
+# Russian license plate detection service(ALPR journal service)
+Recieve jpg image from ip-cam, if numberplate detected, draw rectangle and store detected Licence plates as JPG images in folder with DATE,CAM_NUMBER,DETECTED_LP in filename.
 
 Write DATE,CAM_NUMBER,DETECTED_LP,PATH_TO_IMAGE in CSV file in same folder.
 
