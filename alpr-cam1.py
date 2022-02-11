@@ -115,7 +115,7 @@ while True:
             plt.imshow(img)
        #     plt.show()
        
-            CamFolder = '../images/Лесопарковая/' + str(datetime.now().strftime("%Y-%m-%d")) + '/'
+            CamFolder = '../images/' + str(datetime.now().strftime("%Y-%m-%d")) + '/'
             CurrentDateTime = str(datetime.now().strftime("%Y-%m-%d_%H-%M-%S"))
             ImgPath = CamFolder + CurrentDateTime + '_cam1_' + DetectedNumber + '.jpg'
             
